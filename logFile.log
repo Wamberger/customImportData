@@ -1,0 +1,32 @@
+[8465] 2022-06-17 11:22:45,464 [INFO] [startLog.py] startLog (38): Start of program. Args: ./test.csv. Prop: ;, True, True, person,family,email,job,user,userlogin, , id;firstname;lastname;age;status;children;email;position;company, person_id;person_firstname;person_lastname;person_age;family_status;family_children;email_email;job_position;job_company, , user_id?=person_id!=user_user?=person_firstname?+person_lastname!=user_usergroup?=admin!=user_password?=person_firstname?^upper?+1234!=userlogin_userlogin?=user_user!=, , family,email,job,userlogin, , 
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol - empty
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol1 - empty1
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol2 - empty2
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol - empty
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol1 - empty1
+[8465] 2022-06-17 11:22:45,465 [WARNING] [readCreate.py] __init__ (36): Not in the csvContent list: emptyCol2 - empty2
+[8465] 2022-06-17 11:22:45,465 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update person set firstname = 'john', lastname = 'smith', age = '45' where id = '21' >.
+[8465] 2022-06-17 11:22:45,465 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < person >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update family set status = 'married', children = '2' where id = '21' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < family >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update email set email = 'john@smith.com' where id = '21' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < email >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [rest_call.py] restCall (98): #Test run# Rest-Api: update/Insert would be carried out. Params: < {"id": [21], "position": "manager", "company": "intel", "status": "married"} >
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < job >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update user set usergroup = 'admin', password = '@-118#@-73#@-30#@-119#@15#@-43#@-6#@91#@-127#@-20#@80#@82#@-83#@-55#@64#@64#@-105#@-8#@50#@93#' where id = '21' and user = 'johnsmith' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < user >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update userlogin set userlogin = 'johnsmith' where user = 'johnsmith' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < userlogin >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update person set firstname = 'brie', lastname = 'larson', age = '25' where id = '12' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < person >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update family set status = 'single', children = '0' where id = '12' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < family >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update email set email = 'brie.larson@test.com' where id = '12' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < email >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [rest_call.py] restCall (98): #Test run# Rest-Api: update/Insert would be carried out. Params: < {"id": [12], "position": "worker", "company": "apple", "status": "single"} >
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < job >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update user set usergroup = 'admin', password = '@-124#@8#@79#@-26#@4#@-44#@-5#@-46#@-71#@67#@24#@52#@-39#@-11#@112#@37#@-113#@-19#@-22#@40#' where id = '12' and user = 'brielarson' >.
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < user >,
+[8465] 2022-06-17 11:22:45,466 [INFO] [updateInsert_db.py] updateInsertDB (69): #Test run# Update would be carried out: < update userlogin set userlogin = 'brielarson' where user = 'brielarson' >.
+[8465] 2022-06-17 11:22:45,467 [INFO] [updateInsert_db.py] updateInsertDB (86): Update/Insert successfully: table < userlogin >,
+[8465] 2022-06-17 11:22:45,467 [INFO] [outputProtocol.py] outputProtocol (26): End of program.
