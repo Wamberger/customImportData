@@ -4,7 +4,7 @@ The program/script is part of software program, but it's modified and is standal
 However, to use DB (database) or the 'commented' functions you will need some additional coding.
 
 # How to run
-Write in terminal/console:
+Write in terminal/console/shell:
 
       python3 run.py ./test.csv 
    or 
@@ -28,4 +28,4 @@ Write in terminal/console:
 
 # Additional information
 
-   Once you run the program. You can look at log file (logFile.log) which process would hapen if there would not be in test run. In output file (output.txt) you have the information about the data which would be inserted with their DB table names - this output in dict form will also appear in terminal/console.
+   Once you run the program. You can look at log file (logFile.log) which process would hapen if there would not be in test run. In output file (output.txt) you have the information about the data which would be inserted with their DB table names - this output in dict form will also appear in terminal/console/shell.
